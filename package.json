@@ -15,5 +15,9 @@
     "minimist": "^1.2.0",
     "request": "^2.81.0",
     "request-promise-native": "^1.0.3"
+  },
+  "devDependencies": {
+    "prettier": "1.7.4",
+    "standard": "10.0.3"
   }
 }
