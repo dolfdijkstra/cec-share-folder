@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "license-check": "license-check"
   },
   "author": "Dolf Dijkstra",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "async": "^2.3.0",
     "html-entities": "^1.2.1",
     "lodash": "^4.17.4",
     "minimist": "^1.2.0",
@@ -17,7 +17,21 @@
     "request-promise-native": "^1.0.3"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-config-prettier-standard": "^1.0.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "license-check": "^1.1.5",
     "prettier": "1.7.4",
     "standard": "10.0.3"
+  },
+  "license-check-config": {
+    "src": [
+      "*.js",
+      "!./node_modules/**/*"
+    ],
+    "path": ".header",
+    "blocking": false,
+    "logInfo": false,
+    "logError": true
   }
 }
