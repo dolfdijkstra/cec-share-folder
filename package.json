@@ -17,12 +17,12 @@
     "request-promise-native": "^1.0.3"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^2.6.0",
-    "eslint-config-prettier-standard": "^1.0.1",
+    "eslint-config-prettier": "^3.0.0",
+    "eslint-config-prettier-standard": "^2.0.0",
     "eslint-plugin-prettier": "^2.3.1",
     "license-check": "^1.1.5",
-    "prettier": "1.7.4",
-    "standard": "10.0.3"
+    "prettier": "^1.14.0",
+    "standard": "^12.0.0"
   },
   "license-check-config": {
     "src": [
